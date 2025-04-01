@@ -180,7 +180,7 @@ Based on the query: '{query}', perform the following steps and compile a report:
 
 1.  **Perform a web search** using `DuckDuckGoSearchTool` or `brave_searcher`. Choose one. Collect top results (URLs, descriptions). If `brave_searcher` fails due to key, use DuckDuckGo.
 
-2.  Select relevant website URLs from the search results.
+2.  Select all website URLs from the search results.
 
 3.  For each selected URL:
     a. Use 'playwright_web_fetcher' tool (provide URL as 'url' arg) to fetch HTML.
