@@ -31,11 +31,11 @@ libwebpmux3
 libharfbuzz-icu0 
 libgl1           
 libgudev-1.0-0   
-libx264-163      
+libx264      
 libenchant-2-2   
 libhyphen0       
 libflite1        
-libjpeg-turbo8
+libjpeg
 libpng16-16
 libgles2
 libegl1 
