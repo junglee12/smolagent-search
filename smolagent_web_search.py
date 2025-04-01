@@ -7,6 +7,7 @@ import requests
 import json
 import os
 
+os.system("playwright install")
 os.system("playwright install-deps")
 
 # --- Your Tool Definitions (playwright_web_fetcher, brave_searcher) remain the same ---
