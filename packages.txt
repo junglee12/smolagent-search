@@ -1,4 +1,3 @@
-# Core Playwright/Browser Dependencies (often required)
 libnss3
 libnspr4
 libdbus-1-3
@@ -23,26 +22,20 @@ libx11-xcb1
 libxcb1
 libxext6
 libxrender1
-
-# Specific libs from your error list (or packages providing them)
-libxslt1.1       # Provides libxslt.so.1
-libsecret-1-0    # Provides libsecret-1.so.0
-libopus0         # Provides libopus.so.0
-libwoff1         # Usually needed alongside fonts (libwoff2dec)
-libwebpdemux2    # Provides libwebpdemux.so.2
-libwebpmux3      # Provides libwebpmux.so.3
-libharfbuzz-icu0 # Provides libharfbuzz-icu.so.0
-libgl1           # Meta-package for OpenGL, may cover EGL/GLX/GLES needs
-libgudev-1.0-0   # Provides libgudev-1.0.0
-libx264-163      # Provides libx264.so (adjust version number if needed based on base OS)
-
-# Enchant/Hyphen/Flite - less likely critical for scraping, but were in error list
-libenchant-2-2   # Provides libenchant-2.so.2
-libhyphen0       # Provides libhyphen.so.0
-libflite1        # Provides libflite.so.1
-
-# Other potentially useful graphics/media libs sometimes needed
-# libjpeg-turbo8
-# libpng16-16
-# libgles2 # Often covered by libgl1 or mesa drivers
-# libegl1 # Often covered by libgl1 or mesa drivers
+libxslt1.1       
+libsecret-1-0    
+libopus0         
+libwoff1         
+libwebpdemux2    
+libwebpmux3      
+libharfbuzz-icu0 
+libgl1           
+libgudev-1.0-0   
+libx264-163      
+libenchant-2-2   
+libhyphen0       
+libflite1        
+libjpeg-turbo8
+libpng16-16
+libgles2
+libegl1 
